@@ -21,6 +21,8 @@
 		FE2EB9A5196C1E0200FA3BFC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE2EB987196C1E0200FA3BFC /* UIKit.framework */; };
 		FE2EB9AD196C1E0200FA3BFC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FE2EB9AB196C1E0200FA3BFC /* InfoPlist.strings */; };
 		FE2EB9AF196C1E0200FA3BFC /* PartirPantallaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FE2EB9AE196C1E0200FA3BFC /* PartirPantallaTests.m */; };
+		FE2EB9B9196C1E9A00FA3BFC /* sad-batman.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = FE2EB9B8196C1E9A00FA3BFC /* sad-batman.jpeg */; };
+		FE2EB9BB196C487B00FA3BFC /* margaery_t.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FE2EB9BA196C487B00FA3BFC /* margaery_t.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,8 @@
 		FE2EB9AA196C1E0200FA3BFC /* PartirPantallaTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PartirPantallaTests-Info.plist"; sourceTree = "<group>"; };
 		FE2EB9AC196C1E0200FA3BFC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		FE2EB9AE196C1E0200FA3BFC /* PartirPantallaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PartirPantallaTests.m; sourceTree = "<group>"; };
+		FE2EB9B8196C1E9A00FA3BFC /* sad-batman.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "sad-batman.jpeg"; sourceTree = "<group>"; };
+		FE2EB9BA196C487B00FA3BFC /* margaery_t.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = margaery_t.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +116,8 @@
 		FE2EB989196C1E0200FA3BFC /* PartirPantalla */ = {
 			isa = PBXGroup;
 			children = (
+				FE2EB9BA196C487B00FA3BFC /* margaery_t.jpg */,
+				FE2EB9B8196C1E9A00FA3BFC /* sad-batman.jpeg */,
 				FE2EB992196C1E0200FA3BFC /* AppDelegate.h */,
 				FE2EB993196C1E0200FA3BFC /* AppDelegate.m */,
 				FE2EB995196C1E0200FA3BFC /* Main.storyboard */,
@@ -230,7 +236,9 @@
 			files = (
 				FE2EB99C196C1E0200FA3BFC /* Images.xcassets in Resources */,
 				FE2EB98E196C1E0200FA3BFC /* InfoPlist.strings in Resources */,
+				FE2EB9BB196C487B00FA3BFC /* margaery_t.jpg in Resources */,
 				FE2EB997196C1E0200FA3BFC /* Main.storyboard in Resources */,
+				FE2EB9B9196C1E9A00FA3BFC /* sad-batman.jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -456,6 +464,7 @@
 				FE2EB9B4196C1E0200FA3BFC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FE2EB9B5196C1E0200FA3BFC /* Build configuration list for PBXNativeTarget "PartirPantallaTests" */ = {
 			isa = XCConfigurationList;
@@ -464,6 +473,7 @@
 				FE2EB9B7196C1E0200FA3BFC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
